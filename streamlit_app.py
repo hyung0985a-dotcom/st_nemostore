@@ -5,7 +5,7 @@ import re
 import os
 import sqlite3
 import plotly.express as px
-import koreanize_matplotlib
+
 
 # 1. 페이지 초기 설정 및 캐싱
 st.set_page_config(page_title="네모 상가 임대 분석 대시보드", layout="wide")
@@ -162,3 +162,4 @@ else:
                      "보증금(억원)": st.column_config.NumberColumn(format="%.2f 억"),
                      "평당월세": st.column_config.NumberColumn(format="%.2f")
                  })
+
