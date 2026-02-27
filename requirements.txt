@@ -3,4 +3,4 @@ pandas
 plotly
 beautifulsoup4
 lxml
-koreanize-matplotlib
+
